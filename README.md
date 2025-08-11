@@ -1,5 +1,4 @@
 
-````markdown
 # Upwork Proposal Chatbot
 
 A powerful Next.js 14+ app designed to help freelancers create, analyze, and manage winning Upwork proposals with AI assistance.
@@ -9,6 +8,7 @@ A powerful Next.js 14+ app designed to help freelancers create, analyze, and man
 ## 🚀 Installation and Setup Instructions
 
 ### 1. Create a new Next.js 14+ project:
+
 
 ```bash
 npx create-next-app@latest upwork-proposal-chatbot --app
@@ -142,9 +142,6 @@ This application provides a **complete, user-friendly solution** for Upwork free
 
 **Happy freelancing! 🚀**
 
-```
 
----
 
-Just copy and paste this entire block as your `README.md` — ready to roll! If you want me to add badges, contributing info, or anything else, just say the word.
-```
+Just copy and paste this entire block as your `README.md` — ready to roll! If you want me to add badges, contributing info, or anythi
