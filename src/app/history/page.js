@@ -1,0 +1,21 @@
+// ===========================================
+// app/history/page.js
+// ===========================================
+import ProposalHistory from '../../components/ProposalHistory';
+import Link from 'next/link';
+import { FaArrowLeft } from 'react-icons/fa';
+
+export default function HistoryPage() {
+  return (
+    <div>
+      <div className="fixed top-4 left-4 z-10">
+        <Link href="/">
+          <button className="flex items-center gap-2 glass-morphism text-white px-4 py-2 rounded-lg hover:bg-white/20 transition-colors">
+            <FaArrowLeft /> Back to Home
+          </button>
+        </Link>
+      </div>
+      <ProposalHistory />
+    </div>
+  );
+}
